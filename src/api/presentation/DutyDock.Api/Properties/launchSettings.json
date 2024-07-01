@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Debug": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "DOTNET_EnableAVX": "0" // https://github.com/dotnet/runtime/issues/78991#issuecomment-1536857770
+      }
+    }
+  }
+}

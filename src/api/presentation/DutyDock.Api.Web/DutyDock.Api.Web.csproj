@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ProjectGuid>{98EF202F-CADF-4997-A87F-1F28F9B755A0}</ProjectGuid>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\..\application\DutyDock.Application\DutyDock.Application.csproj" />
+      <ProjectReference Include="..\DutyDock.Api.Shared\DutyDock.Api.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

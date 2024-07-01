@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ProjectGuid>{48CCF247-F9C6-418E-87DA-FEF9FC999725}</ProjectGuid>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\shared\DutyDock.Api.Contracts\DutyDock.Api.Contracts.csproj" />
+      <ProjectReference Include="..\..\application\DutyDock.Application\DutyDock.Application.csproj" />
+    </ItemGroup>
+    
+</Project>
