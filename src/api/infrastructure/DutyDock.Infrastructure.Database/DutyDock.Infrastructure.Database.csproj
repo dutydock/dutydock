@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ProjectGuid>{D654A229-4CDE-415B-9B0B-7F987E684C64}</ProjectGuid>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.40.0-preview.1" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\domain\DutyDock.Domain\DutyDock.Domain.csproj" />
+      <ProjectReference Include="..\DutyDock.Infrastructure.Shared\DutyDock.Infrastructure.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

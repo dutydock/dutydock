@@ -1,4 +1,4 @@
-namespace DutyDock.Application.Common.Interfaces;
+namespace DutyDock.Application.Common.Interfaces.Services;
 
 public interface IEnvironmentProvider
 {

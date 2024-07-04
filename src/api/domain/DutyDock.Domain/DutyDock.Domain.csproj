@@ -4,4 +4,12 @@
         <ProjectGuid>{E0DDDED0-610D-4B4D-9187-26BCE47A83E6}</ProjectGuid>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Roster\" />
+    </ItemGroup>
+
 </Project>

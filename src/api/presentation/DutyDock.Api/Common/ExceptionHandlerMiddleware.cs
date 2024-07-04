@@ -3,6 +3,7 @@ using DutyDock.Api.Contracts.Common;
 using DutyDock.Api.Shared;
 using DutyDock.Application.Common.Exceptions;
 using DutyDock.Application.Common.Interfaces;
+using DutyDock.Application.Common.Interfaces.Services;
 using ErrorOr;
 using Newtonsoft.Json;
 

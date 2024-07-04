@@ -1,4 +1,6 @@
-﻿using DutyDock.Application.Common.Interfaces;
+﻿using DutyDock.Infrastructure.Database;
+using DutyDock.Infrastructure.Notifications;
+using DutyDock.Infrastructure.Security;
 using DutyDock.Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,13 +15,13 @@ public static class Setup
         services.ThrowIfNull();
         configuration.ThrowIfNull();
 
-        services.AddServices();
-
+        services
+            .AddOptions()
+            .AddServices()
+            .AddNotifications(configuration)
+            .AddSecurity(configuration)
+            .AddDatabase(configuration);
+        
         return services;
-    }
-
-    private static void AddServices(this IServiceCollection services)
-    {
-        services.AddSingleton<IEnvironmentProvider, EnvironmentProvider>();
     }
 }

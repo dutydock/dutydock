@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutyDock.Domain.Tests.Unit"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutyDock.Infrastructure", "src\api\infrastructure\DutyDock.Infrastructure\DutyDock.Infrastructure.csproj", "{1300311E-06D2-414D-9B10-76B0ED944EFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutyDock.Infrastructure.Database", "src\api\infrastructure\DutyDock.Infrastructure.Database\DutyDock.Infrastructure.Database.csproj", "{C0181291-26BF-4C0D-9633-538CF25291AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutyDock.Infrastructure.Shared", "src\api\infrastructure\DutyDock.Infrastructure.Shared\DutyDock.Infrastructure.Shared.csproj", "{F45D86CE-0DD0-467B-AD17-B206BAAD4012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,8 @@ Global
 		{9065E3B5-8779-4C88-A3A2-8B46EB68F5A2} = {3131EC38-BF9C-4675-BA37-85EC728764BA}
 		{5F730095-7037-4010-AE21-90A4843B9D6B} = {3131EC38-BF9C-4675-BA37-85EC728764BA}
 		{1300311E-06D2-414D-9B10-76B0ED944EFF} = {9630947B-2A28-4350-A7FB-811E687B442C}
+		{C0181291-26BF-4C0D-9633-538CF25291AF} = {9630947B-2A28-4350-A7FB-811E687B442C}
+		{F45D86CE-0DD0-467B-AD17-B206BAAD4012} = {9630947B-2A28-4350-A7FB-811E687B442C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B3634EE9-7355-42E8-9999-908FCC8072E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -99,5 +105,13 @@ Global
 		{1300311E-06D2-414D-9B10-76B0ED944EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1300311E-06D2-414D-9B10-76B0ED944EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1300311E-06D2-414D-9B10-76B0ED944EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0181291-26BF-4C0D-9633-538CF25291AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0181291-26BF-4C0D-9633-538CF25291AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0181291-26BF-4C0D-9633-538CF25291AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0181291-26BF-4C0D-9633-538CF25291AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45D86CE-0DD0-467B-AD17-B206BAAD4012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45D86CE-0DD0-467B-AD17-B206BAAD4012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45D86CE-0DD0-467B-AD17-B206BAAD4012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45D86CE-0DD0-467B-AD17-B206BAAD4012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

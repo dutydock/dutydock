@@ -1,4 +1,5 @@
 using DutyDock.Application.Common.Interfaces;
+using DutyDock.Application.Common.Interfaces.Services;
 using Microsoft.Extensions.Hosting;
 
 namespace DutyDock.Infrastructure.Services;
