@@ -13,5 +13,14 @@
     <ItemGroup>
       <ProjectReference Include="..\..\domain\DutyDock.Domain\DutyDock.Domain.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Iam\Organizations\Commands\" />
+      <Folder Include="Iam\Organizations\EventHandlers\" />
+      <Folder Include="Iam\Organizations\Queries\" />
+      <Folder Include="Iam\Users\Commands\" />
+      <Folder Include="Iam\Users\EventHandlers\" />
+      <Folder Include="Iam\Users\Queries\" />
+    </ItemGroup>
     
 </Project>

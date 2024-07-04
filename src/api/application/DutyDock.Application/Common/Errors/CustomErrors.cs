@@ -1,6 +1,6 @@
 using ErrorOr;
 
-namespace DutyDock.Application.Common;
+namespace DutyDock.Application.Common.Errors;
 
 public static class CustomErrorType
 {

@@ -1,6 +1,7 @@
 using System.Net;
 using DutyDock.Api.Contracts.Common;
 using DutyDock.Application.Common;
+using DutyDock.Application.Common.Errors;
 using ErrorOr;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
