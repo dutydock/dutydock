@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ProjectGuid>{EDE231F7-78E8-4F64-B64B-EE7BEB3ABA40}</ProjectGuid>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Humanizer" Version="2.14.1"/>
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\shared\DutyDock.Api.Web.Client\DutyDock.Api.Web.Client.csproj" />
+      <ProjectReference Include="..\shared\DutyDock.Api.Web.Contracts\DutyDock.Api.Web.Contracts.csproj" />
+    </ItemGroup>
+    
+</Project>

@@ -1,0 +1,19 @@
+<MudThemeProvider Theme="Theme"/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+<MudPopoverProvider/>
+
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(DMainLayout)">
+            <NotAuthorized>
+                <RedirectNotAuthorized/>
+            </NotAuthorized>
+        </AuthorizeRouteView>
+    </Found>
+    <NotFound>
+        <CascadingAuthenticationState>
+            <RedirectNotFound/>
+        </CascadingAuthenticationState>
+    </NotFound>
+</Router>

@@ -1,9 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <ProjectGuid>{52620712-0C39-43AE-98E0-5CA4ABBFBE5D}</ProjectGuid>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Net.Http.Headers" Version="2.2.8" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DutyDock.Api.Contracts\DutyDock.Api.Contracts.csproj" />
+    </ItemGroup>
+    
 </Project>

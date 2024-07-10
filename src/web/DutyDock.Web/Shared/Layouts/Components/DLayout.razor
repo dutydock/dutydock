@@ -1,0 +1,13 @@
+@using DutyDock.Web.Shared.Layouts.Components.AppBar
+
+<div class="h-screen w-screen grid grid-cols-1 grid-rows-[auto_1fr] overflow-hidden">
+    <DAppBar></DAppBar>
+    @ChildContent
+</div>
+
+@code {
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+}

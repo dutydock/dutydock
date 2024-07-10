@@ -1,0 +1,14 @@
+<div class="grid grid-cols-[1fr_425px_1fr] overflow-y-auto py-12">
+    <div></div>
+    <div>
+        @ChildContent
+    </div>
+    <div></div>
+</div>
+
+@code {
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+}

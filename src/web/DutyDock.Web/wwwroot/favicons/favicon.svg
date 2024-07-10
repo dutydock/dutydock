@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="90px" height="90px"><svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>box</title>
+    <g id="SvgjsG1013" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SvgjsG1012" transform="translate(-229.000000, -928.000000)">
+            <g id="SvgjsG1011" transform="translate(229.000000, 928.000000)">
+                <rect id="SvgjsRect1010" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="90" height="89"></rect>
+                <g id="SvgjsG1009" stroke-linecap="round" transform="translate(4.000000, 3.500000)" stroke="#3083C7" stroke-width="5.8">
+                    <line x1="81.5" y1="18" x2="41.5" y2="34" id="SvgjsLine1008"></line>
+                    <line x1="40.5" y1="0" x2="0.5" y2="16.625" id="SvgjsLine1007"></line>
+                    <line x1="0.5" y1="17.25" x2="41.5" y2="34" id="SvgjsLine1006"></line>
+                    <line x1="40.5" y1="0.25" x2="81.5" y2="17" id="SvgjsLine1005"></line>
+                    <line x1="41.5" y1="83.5" x2="41.5" y2="34" id="SvgjsLine1004"></line>
+                    <line x1="41.5" y1="83.5" x2="81.5" y2="66.5" id="SvgjsLine1003"></line>
+                    <line x1="41.5" y1="83.5" x2="0.5" y2="66.75" id="SvgjsLine1002"></line>
+                    <line x1="81.5" y1="18" x2="81.5" y2="66.5" id="SvgjsLine1001"></line>
+                    <line x1="0.5" y1="66.5" x2="0.5" y2="17" id="SvgjsLine1000"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+</style></svg>
