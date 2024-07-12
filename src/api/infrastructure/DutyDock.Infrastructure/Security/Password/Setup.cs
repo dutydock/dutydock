@@ -1,4 +1,4 @@
-using DutyDock.Domain.Iam.User.Services;
+using DutyDock.Domain.Identity.User.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Throw;
 

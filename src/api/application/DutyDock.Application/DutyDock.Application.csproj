@@ -11,16 +11,16 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\..\shared\DutyDock.Api.Contracts\DutyDock.Api.Contracts.csproj" />
       <ProjectReference Include="..\..\domain\DutyDock.Domain\DutyDock.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Iam\Organizations\Commands\" />
-      <Folder Include="Iam\Organizations\EventHandlers\" />
-      <Folder Include="Iam\Organizations\Queries\" />
-      <Folder Include="Iam\Users\Commands\" />
-      <Folder Include="Iam\Users\EventHandlers\" />
-      <Folder Include="Iam\Users\Queries\" />
+      <Folder Include="Identity\Organizations\Commands\" />
+      <Folder Include="Identity\Organizations\EventHandlers\" />
+      <Folder Include="Identity\Organizations\Queries\" />
+      <Folder Include="Identity\Users\EventHandlers\" />
+      <Folder Include="Identity\Users\Queries\" />
     </ItemGroup>
     
 </Project>

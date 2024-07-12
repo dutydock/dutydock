@@ -1,7 +1,7 @@
 # DutyDock
 ---
 
-Open-source rostering software for teams with complex scheduling constraints.
+Open-source shift planning & rostering software for teams with complex scheduling constraints.
 
 
 ### Web

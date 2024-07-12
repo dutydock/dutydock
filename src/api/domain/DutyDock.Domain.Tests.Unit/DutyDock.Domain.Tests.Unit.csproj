@@ -22,4 +22,8 @@
       <ProjectReference Include="..\DutyDock.Domain\DutyDock.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Scheduling\" />
+    </ItemGroup>
+
 </Project>

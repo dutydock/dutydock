@@ -1,4 +1,4 @@
-using DutyDock.Domain.Iam.User;
+using DutyDock.Domain.Identity.User;
 
 namespace DutyDock.Application.Common.Interfaces.Security;
 

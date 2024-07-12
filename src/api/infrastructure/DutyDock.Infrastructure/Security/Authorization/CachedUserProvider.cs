@@ -1,6 +1,6 @@
 using DutyDock.Application.Common.Database;
 using DutyDock.Application.Common.Interfaces.Security;
-using DutyDock.Domain.Iam.User;
+using DutyDock.Domain.Identity.User;
 
 namespace DutyDock.Infrastructure.Security.Authorization;
 

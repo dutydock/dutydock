@@ -1,5 +1,5 @@
 using DutyDock.Application.Common.Authorization.Requirements;
-using DutyDock.Domain.Iam.User.Enums;
+using DutyDock.Domain.Identity.User.Enums;
 
 namespace DutyDock.Application.Common.Authorization.Policies;
 

@@ -1,5 +1,5 @@
 using BCrypt.Net;
-using DutyDock.Domain.Iam.User.Services;
+using DutyDock.Domain.Identity.User.Services;
 using Throw;
 
 namespace DutyDock.Infrastructure.Security.Password;

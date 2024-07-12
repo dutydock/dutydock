@@ -1,5 +1,5 @@
 using DutyDock.Application.Common.Interfaces.Security;
-using DutyDock.Domain.Iam.User.Enums;
+using DutyDock.Domain.Identity.User.Enums;
 using ErrorOr;
 
 namespace DutyDock.Application.Common.Authorization.Requirements;

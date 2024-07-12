@@ -1,5 +1,5 @@
-using DutyDock.Domain.Iam.User;
-using DutyDock.Domain.Iam.User.Entities;
+using DutyDock.Domain.Identity.User;
+using DutyDock.Domain.Identity.User.Entities;
 
 namespace DutyDock.Application.Common.Interfaces.Security;
 

@@ -1,3 +1,7 @@
+using DutyDock.Application.Common.Database;
+using DutyDock.Application.Common.Database.Common;
+using DutyDock.Infrastructure.Database.Cosmos.Data;
+using DutyDock.Infrastructure.Database.Cosmos.Repositories.Entities.User;
 using DutyDock.Infrastructure.Shared;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Configuration;
@@ -58,11 +62,23 @@ internal static class Setup
 
         CosmosInitializer.Execute(options, client).Wait();
 
+        var clientProvider = new ClientProvider(client);
+        services.AddSingleton(clientProvider);
+
+        var containerProvider = new ContainerProvider(clientProvider, options);
+        services.AddSingleton(containerProvider);
+        
+        services.AddScoped<DataContainerContext>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
+        
         return services;
     }
-
+    
     private static IServiceCollection AddRepositories(this IServiceCollection services)
     {
+        // Entities
+        services.AddScoped<IUserRepository, UserRepository>();
+        
         return services;
     }
 
